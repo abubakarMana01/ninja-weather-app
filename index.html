@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./src/style.css" />
+		<title>Ninja Weather App</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Ninja Weather</h1>
+			</header>
+			<section>
+				<form autocomplete="off">
+					<label for="search-city"
+						>Enter a location for weather information</label
+					>
+					<input type="text" name="searchCity" id="searchCity" />
+				</form>
+				<div class="information">
+					<img src="" class="time-img" />
+					<div class="icon">
+						<img src="" class="icon-img" />
+					</div>
+					<div class="info-text">
+						<h3>CITY NAME</h3>
+						<p>WEATHER CONDITION</p>
+						<h2>TEMP <span>&deg;C</span></h2>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="./src/scripts/forecast.js"></script>
+		<script src="./src/scripts/app.js"></script>
+	</body>
+</html>
